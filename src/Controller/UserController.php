@@ -13,6 +13,7 @@ class UserController extends AbstractController
      */
     public function index(): Response
     {
+        $vriable = 'test';
         return $this->render('user/index.html.twig', [
             'controller_name' => 'UserController',
         ]);
